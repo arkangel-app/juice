@@ -1,0 +1,1577 @@
+@font-face {
+  font-family: dKZealand-regular;
+  src: url('./fonts/DKZealand-Regular.eot');
+  src: url('./fonts/DKZealand-Regular.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/DKZealand-Regular.woff') format('woff'),
+       url('./fonts/DKZealand-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: helveticaLTStd-roman;
+  src: url('./fonts/HelveticaLTStd-Roman.eot');
+  src: url('./fonts/HelveticaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/HelveticaLTStd-Roman.woff') format('woff'),
+       url('./fonts/HelveticaLTStd-Roman.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: myriadPro-regular;
+  src: url('./fonts/MyriadPro-Regular.eot');
+  src: url('./fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/MyriadPro-Regular.woff') format('woff'),
+       url('./fonts/MyriadPro-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: populaire;
+  src: url('./fonts/Populaire.eot');
+  src: url('./fonts/Populaire.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Populaire.woff') format('woff'),
+       url('./fonts/Populaire.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: roboto-medium;
+  src: url('./fonts/Roboto-Medium.eot');
+  src: url('./fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Roboto-Medium.woff') format('woff'),
+       url('./fonts/Roboto-Medium.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: roboto-regular;
+  src: url('./fonts/Roboto-Regular.eot');
+  src: url('./fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Roboto-Regular.woff') format('woff'),
+       url('./fonts/Roboto-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: DCC-SharpDistressBlack;
+  src: url('./fonts/DCC-SharpDistressBlack.eot');
+  src: url('./fonts/DCC-SharpDistressBlack.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/DCC-SharpDistressBlack.woff') format('woff'),
+       url('./fonts/DCC-SharpDistressBlack.ttf')  format('truetype');
+}
+/*Tang*/
+
+.titulo{
+  color: green;
+  font-family: dKZealand-regular;
+  font-size: 60px;
+  text-shadow: rgb(255, 255, 255) 4px 0px 0px, rgb(255, 255, 255) 3.87565px 0.989616px 0px, rgb(255, 255, 255) 3.51033px 1.9177px 0px, rgb(255, 255, 255) 2.92676px 2.72656px 0px, rgb(255, 255, 255) 2.16121px 3.36588px 0px, rgb(255, 255, 255) 1.26129px 3.79594px 0px, rgb(255, 255, 255) 0.282949px 3.98998px 0px, rgb(255, 255, 255) -0.712984px 3.93594px 0px, rgb(255, 255, 255) -1.66459px 3.63719px 0px, rgb(255, 255, 255) -2.51269px 3.11229px 0px, rgb(255, 255, 255) -3.20457px 2.39389px 0px, rgb(255, 255, 255) -3.69721px 1.52664px 0px, rgb(255, 255, 255) -3.95997px 0.56448px 0px, rgb(255, 255, 255) -3.97652px -0.432781px 0px, rgb(255, 255, 255) -3.74583px -1.40313px 0px, rgb(255, 255, 255) -3.28224px -2.28625px 0px, rgb(255, 255, 255) -2.61457px -3.02721px 0px, rgb(255, 255, 255) -1.78435px -3.57996px 0px, rgb(255, 255, 255) -0.843183px -3.91012px 0px, rgb(255, 255, 255) 0.150409px -3.99717px 0px, rgb(255, 255, 255) 1.13465px -3.8357px 0px, rgb(255, 255, 255) 2.04834px -3.43574px 0px, rgb(255, 255, 255) 2.83468px -2.82216px 0px, rgb(255, 255, 255) 3.44477px -2.03312px 0px, rgb(255, 255, 255) 3.84068px -1.11766px 0px, rgb(255, 255, 255) 3.9978px -0.132717px 0px;
+  padding-top: 3%;
+  text-align: center;
+  margin-bottom: unset;
+}
+
+
+/* menu */
+
+
+.containerContact{
+  padding-bottom: 100px;
+}
+
+.menuItem{
+  font-family: dKZealand-regular;
+  font-size: 20px;
+}
+.menuDesktop a{
+  color: white;
+  text-decoration: none;
+}
+.logoHeader{
+  width: 150px;
+  float: left;
+  margin-left: 10px;
+  position: absolute;
+}
+.logoHeader img{
+  width: 100%;
+}
+.menuOpciones{
+  padding-top: 10px;
+}
+
+.menuBarraAzul{
+  background: #014b80;
+  margin-bottom:0;
+  text-align: right;
+  padding: 12px 20px;
+}
+.menuBarraAzul li{
+  display: inline-block;
+  margin-right: 8px;
+  color: white;
+}
+.menuBarraAzul li::before{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #007cce;
+  margin-right: 8px
+}
+.menuSuperior{
+  list-style: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: right;
+  padding: 12px 20px;
+}
+
+a.linkNube {
+    color: white;
+}
+a.linkNube:hover {
+  color: white;
+}
+a.linkNube:focus {
+    text-decoration: unset;
+    color: white;
+}
+.menuSuperior li{
+  display: inline-block;
+  margin-right: 8px;
+  color: white;
+}
+.menuSuperior li::before{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #9c5917;
+  margin-right: 8px
+}
+/* boton responsive  */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+
+
+/*participar*/
+.nube{
+  background: #014b80;
+  border-radius: 15px;
+  color: white;
+  max-width: 480px;
+  text-align: left;
+  margin: auto;
+  font-family: dKZealand-regular;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 15px 15px 15px 30px;
+  box-shadow: 8px 8px 1px 0px #0000002e;
+}
+
+.orange{
+  color:#E18020;
+}
+
+.triangle{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 40px 0 0;
+  border-color: #004b80 transparent transparent transparent;
+}
+
+.number{
+  font-family: DCC-SharpDistressBlack;
+  font-size: 50px;
+  color:#E18020;
+  margin-top: 10px;
+}
+
+
+.circleBox{
+  text-align: left;
+}
+.productos{
+  padding-top: 3%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.tangBox {
+  max-width: 550px;
+  margin: auto;
+}
+.tang{
+  width: 100%;
+}
+
+.premios{
+  width: 100%;
+}
+
+.premioBox{
+  max-width: 750px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.premiosRow{
+  margin-top: -55px;
+}
+
+.redBox{
+  padding-top: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.social{
+  max-width: 65px;
+}
+
+.txtFooter{
+  font-family: populaire;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.phoneBox{
+  max-width: 650px;
+  margin: auto;
+  position: relative;
+
+}
+.phoneTxt{
+  width: 100%;
+}
+
+.zoom{
+  max-width: 170px;
+}
+
+.txt{
+  font-size: 24px;
+  font-family: populaire;
+  text-align: center;
+  margin-top: -90px;
+  line-height: 25px;
+}
+
+.txt2{
+  font-size: 24px;
+  font-family: populaire;
+  text-align: center;
+  line-height: 25px;
+  padding-top: 15px;
+}
+
+.partArgText.como{
+  text-align: center;
+}
+
+.nubeComoP.pt {
+    margin-top: 20px;
+}
+
+.nubeComoP.pt.h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nubeComoP{
+    background: #014b80;
+    border-radius: 15px;
+    color: white;
+    max-width: 480px;
+    font-family: dKZealand-regular;
+    font-size: 20px;
+    line-height: 18px;
+    padding: 15px 5px 15px 5px;
+    -webkit-box-shadow: 8px 8px 1px 0px #0000002e;
+    box-shadow: 8px 8px 1px 0px #0000002e;
+    position: relative;
+    z-index: 2;
+}
+
+.nubeComoP.pt.h2.datos{
+  max-width: 250px;
+}
+
+.nubeComoP.pt.h2.preguntas{
+  max-width: 300px;
+}
+
+.frontText{
+  position: relative;
+  z-index: 2;
+}
+
+.nubeComoP.pt.h2.preguntas {
+    justify-content: right;
+    float: right;
+    max-width: 259px;
+    padding-left: 12px;
+    margin-left: 20px;
+}
+
+.movilComo{
+  display: none;
+}
+
+.imgPhoneComo {
+    max-width: 350px;
+    margin-top: -142px;
+    position: relative;
+}
+
+.nubeComoP.pt.lote2 {
+    float: right;
+    padding-left: 32px;
+    padding-right: 30px;
+}
+
+.nubeComoP.pt.lote2{
+  max-width: 220px;
+}
+
+.nubeComoP.pt.lote{
+  max-width: 220px;
+}
+
+.triangle.tleft{
+  margin-top: -9px;
+  margin-left: 15px;
+}
+
+.dashLine.participar{
+  display: none;
+}
+
+.triangle.tright {
+    margin-top: -5px;
+    margin-left: 15px;
+    right: 0;
+}
+
+.iline2 {
+    max-width: 60px;
+}
+
+.phoneComo {
+    margin: auto;
+    text-align: center;
+}
+
+.imgPhoneComo{
+  max-width: 350px;
+}
+
+button.ant-btn.btn.nLote {
+    width: 255px;
+    margin-left: 20px;
+}
+
+
+.step {
+    max-width: 30px;
+    position: absolute;
+    left: -10px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.number.arg.como{
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.bMedia2.como{
+  max-width: 40px;
+}
+
+.productosBox {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.premiosBx{
+  max-width: 600px;
+  margin: auto;
+}
+
+.imgProductos{
+  width: 100%;
+}
+
+a.respLink{
+  color: white;
+}
+.responsiveLogo{
+  display: none;
+}
+
+img.step-img {
+    max-width: 50px;
+}
+
+.steps{
+  padding-top: 20px;
+}
+
+.steps ul {
+    padding-left: unset;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+button.ant-btn.btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #014b80;
+    border-radius: 8px;
+    color: white;
+    border-width: 3px;
+    border-color: white;
+    font-size: 20px;
+    width: 150px;
+    line-height: 20px;
+    height: 50px;
+    font-family: dKZealand-regular;
+    box-shadow: 0px 5px #00000040;
+}
+
+button.ant-btn.btn:hover{
+  box-shadow: unset;
+}
+
+.spacew{
+  background: white;
+  width: 40px;
+  height: 8px;
+}
+
+.steps ul li {
+    position: relative;
+    list-style: none;
+    display: inherit;
+    align-items: center;
+}
+
+.container.wizard {
+    background: #014b80;
+    padding: 20px 10px 20px 30px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.ant-row.ant-form-item.lote {
+    max-width: 300px;
+    margin: auto;
+}
+
+.container.wizard.codigo{
+  padding: 20px 0px 20px 0px;
+}
+
+.ant-row.detalle {
+    background: #022946;
+    padding: 30px 60px 30px 60px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.ant-form-item-required {
+    color: white;
+    font-family: dKZealand-regular;
+    font-size: 20px;
+}
+
+.ant-form-item-label > label {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.formCol.ant-col-xs-24.ant-col-md-12 {
+    padding-right: 20px;
+}
+
+.ant-form-item-required::before {
+    color: #fed739 !important;}
+
+.has-error .ant-input, .has-error .ant-input:hover {
+    border-color: #fbf451 !important;
+}
+
+.has-error .ant-form-explain, .has-error .ant-form-split {
+    color: #f7e155 !important;
+}
+
+.ant-select-selection__rendered{
+  line-height: 35px !important;
+}
+.ant-select-selection.ant-select-selection--single
+{
+  border-color: #e18020;
+  border-radius: unset;
+  border-width: 4px;
+  height: 45px;
+  font-size: 18px;
+}
+    .ant-input.success {
+        border-color: #e18020;
+        border-radius: unset;
+        border-width: 4px;
+        height: 45px;
+        font-size: 18px;
+
+    }
+
+    .ant-row.ant-form-item.ch.acepto {
+    margin-top: -30px;
+}
+
+label.ant-checkbox-wrapper {
+    color: white;
+    font-family: dKZealand-regular;
+    font-size: 20px;
+}
+
+.bt-box{
+  text-align: center;
+  margin: auto;
+}
+
+.guideBox{
+  max-width: 280px;
+}
+
+.guide{
+  width: 100%;
+}
+
+.colText {
+    text-align: center;
+    font-family: populaire;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.txtDetalleW{
+  color: white;
+  padding-top: 15px;
+}
+
+.txtDetalleY{
+  color:yellow;
+}
+
+.msg {
+    color: white;
+    font-family: dKZealand-regular;
+    text-align: center;
+    font-size: 32px;
+    line-height: 37px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.bigNumber {
+    font-family: populaire;
+    color: #e18020;
+    font-size: 60px;
+    padding: 30px;
+}
+
+.container.wizard.mensaje {
+    padding: 35px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .bm-burger-button{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+
+  h1.titulo.bases {
+    font-size: 30px;
+  }
+
+  .menuDesktop{
+    display: none! important;
+  }
+
+  .responsiveLogo{
+    display: block;
+    position: absolute;
+    max-width: 20%;
+    left: 15px;
+
+  }
+
+  .nube {
+    margin-top: 50px;
+}
+
+.nube.part.arg {
+  margin-top: unset;
+}
+
+  h1.titulo {
+    background: #004B80;
+    padding-top: unset;
+    padding: 8px;
+    margin-top: 20px;
+}
+}
+
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* fin del bpton response */
+
+.siderContainer{
+  height: calc(100vh);
+  background: url('https://s3.amazonaws.com/sky-general/background_pixar.png');
+  background-size: cover;
+  border-left: 8px solid #004b80;
+  position: relative;
+  background-position: bottom;
+  background-position-y: bottom;
+  width: 33.3333333%;
+  overflow: hidden;
+  position: fixed;
+
+}
+.siderContainerHome{
+  width: 41.66666667%;
+
+}
+
+.mainContainer{
+  background:#e18020;
+
+}
+
+.footerContainer{
+  background: url('https://s3.amazonaws.com/sky-general/footerbackground.png');
+  background-repeat: repeat-x;
+  background-size: 300px;
+  height: 130px;
+  margin-top: -10px;
+  position: relative;
+  z-index: 3;
+  padding-top: 10px;
+}
+.footerContainer .insider{
+  background: #004b80;
+  position: relative;
+  margin-top: 10px;
+  padding-bottom: 25px;
+}
+
+.toystoyLogo{
+  width: 80%;
+  max-width: 160px;
+  margin: auto;
+  padding-top: 30px;
+}
+.toystoyLogo img{
+  width: 100%;
+}
+.personajeContainer{
+  text-align: center;
+  margin: auto;
+}
+.personajeContainer img{
+  max-width: 100%;
+  height: calc(100vh - 150px);
+
+}
+.copyts{
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  width: 12px
+}
+.mobileFooter{
+  display: none;
+}
+
+.ant-row.primerRow{
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+.premioTv{
+  max-width: 400px;
+  padding-top: 30px;
+}
+
+.award{
+  max-width: 160px;
+}
+
+.lastRow{
+  text-align: center;
+  padding-top: 25px;
+}
+
+.head{
+  max-width: 110px;
+}
+
+.miniText{
+  font-family: populaire;
+  margin: auto;
+  padding: 15px 10px 60px 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nube.nubeFaq {
+    max-width: 760px;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 50px
+}
+.resp{
+  font-family: helveticaLTStd-roman;
+  font-size: 16px;
+}
+
+.triangleFaq{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 35px 35px 0;
+border-color: transparent #014b80 transparent transparent;
+position: absolute;
+right: 40px;
+margin-top: 30px;
+}
+
+.packsMovil{
+  display: none;
+}
+.titulo.prod{
+  line-height: 58px;
+  padding-bottom: 20px;
+}
+
+.packsBox {
+    max-width: 650px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+img.packs {
+    width: 100%;
+}
+
+.contactxt{
+  font-family: dKZealand-regular;
+  font-size: 20px;
+}
+
+.correo{
+  font-family: populaire;
+  font-size: 50px;
+  color: #E18020;
+}
+
+.nube.contact {
+    line-height: unset;
+    max-width: 680px;
+    text-align:center;
+    padding: 30px;
+    position: relative;
+}
+
+.nube.contact.phone{
+  margin-top: 40px;
+}
+
+.triangle.phone{
+  margin-top:30px;
+  left: 50px;
+}
+
+.logoBox {
+    max-width: 200px;
+    margin: auto;
+    z-index: 10;
+    position: relative;
+}
+
+img.logoHome {
+    width: 100%;
+}
+
+.homeRow{
+  text-align: center;
+}
+
+.country{
+  max-width: 120px;
+}
+.countryName{
+    max-width: 150px;
+}
+
+.countryArg{
+    max-width: 180px;
+}
+
+.sobresBox{
+  max-width: 650px;
+  margin: auto;
+  padding: 30px 0 60px 0;
+}
+
+.packhome{
+    width: 100%;
+}
+
+.titulo.home{
+  font-size: 50px;
+  padding-top: unset;
+  background: unset;
+}
+
+.containerHome{
+  position: relative;
+  padding-top: 2%;
+}
+.containerHomeRow{
+  max-width: 700px;
+  margin: auto;
+}
+
+.line {
+    position: absolute;
+    min-height: 110px;
+    background: #004B81;
+    width: 100%;
+    top: 74px;
+    z-index: 1;
+}
+
+img.iSobres {
+    width: 100%;
+    margin-top: -90px;
+}
+
+.sBox {
+    max-width: 330px;
+    margin: auto;
+}
+
+.bMedia2{
+  max-width: 60px;
+  margin-right: 10px;
+}
+
+.bMedia{
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.nube.part.arg{
+  text-align: center;
+}
+
+.nube.part.arg.whatsapp{
+  font-size: 25px;
+
+}
+
+.titulo.miniTit{
+  font-size: 28px;
+}
+
+.partArgText{
+  color:white;
+  font-size: 18px;
+  font-family: dKZealand-regular;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.lightTxt {
+    font-family: populaire;
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+}
+
+.dashLine {
+    height: 30px;
+    background-image: linear-gradient(to right, white 50%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-position-x: 19px;
+    background-size: 25px 2px;
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+}
+
+.orange.txtPremio {
+    padding-top: 10px;
+    font-family: dKZealand-regular;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.orange.txtPremio {
+    padding: 0px 30px;
+}
+
+img#premioImg {
+    max-width: 150px;
+}
+
+.colInput.ant-col-xs-24.ant-col-sm-12.ant-col-md-12{
+  padding: 5px 30px 0px 30px;
+    text-align: left;
+}
+
+.msg.premio {
+    padding-top: 20px;
+    text-align: left;
+    margin: unset;
+    padding-bottom: 10px;
+}
+
+.lightTxt.premio {
+     text-align: left;
+}
+
+.webCol {
+    margin-top: 15px;
+}
+
+.number.arg{
+  font-size: 40px;
+}
+
+
+.ant-row.filaProductos {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.bpart{
+  position: relative;
+  z-index: 25;
+}
+
+.premiosRow.participar{
+  text-align: center;
+  margin-top:-10px;
+  position: relative;
+}
+
+img.arrow {
+    max-width: 100px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+img.arrow {
+    max-width: 100px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.ant-row.filaProductos {
+    justify-content: center;
+    text-align: center;
+}
+
+.iline{
+  max-width: 40px;
+}
+
+.bm-burger-button {
+    position: absolute;
+    right: 40px;
+    left: unset;
+    top:5vh;
+}
+
+  .bm-burger-bars {
+    background: white;
+}
+
+.bm-menu {
+    background: #004B80;
+    color:white;
+  }
+
+  .orange.slash {
+    font-size: 50px;
+}
+.contactxt{
+  color:white;
+}
+.ant-row.rowTelefonos {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.linkFaq{
+  color:orange;
+}
+
+img.btang {
+    max-width: 250px;
+    margin-left: -15px;
+}
+
+img.itang {
+    max-width: 300px;
+}
+
+.rwd {
+    position: relative;
+    z-index: 80;
+}
+
+.espacioBases{
+  display: none;
+}
+
+.triangleFaq.uyfaq{
+  margin-top: 28px;
+}
+
+.triangle.phone.uyt{
+  margin-top: 20px;
+}
+
+li.bm-item.menuItem:focus{
+border-style: none !important;
+}
+a.respLink:active {
+  color: orange;
+}
+/*ANIMATION*/
+
+.btang{
+animation-duration: 3s;
+animation-iteration-count: 2;
+}
+
+.premioTv{
+animation-duration: 2s;
+animation-iteration-count: 1;
+}
+
+.imgMovilComo{
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.movilComo {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1080px){
+  .premioTv {
+    max-width: 300px;
+  }
+  .ant-row.primerRow {
+    padding-top: unset;
+  }
+
+  .nube.contact {
+    max-width: 480px;
+  }
+
+  .nube.contact.phone{
+    max-width: 480px;
+  }
+
+
+.containerContact{
+  padding-bottom: 60px;
+}
+
+.nubesContainer {
+  padding: 0px 35px 0px 35px;
+}
+  .personajeContainer img{
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .partArgText{
+  text-align: center;
+  }
+
+  img.iSobres {
+    width: 100%;
+    margin-top: unset;
+  }
+
+  .bpart {
+    z-index: auto;
+  }
+
+  a {
+    color: white;}
+
+  .siderView{
+    position: fixed !important;
+    bottom: 0px;
+    z-index:4
+  }
+  .siderContainer{
+    height: 30vh;
+    border-left:none;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  .desktopFooter{
+    display: none;
+  }
+  .mobileFooter{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-top: 12px;
+  }
+  .copyts {
+    right: 6px;
+    top: 50px;
+    width: 9px;
+  }
+
+  .mobileFooter img, .mobileFooter img{
+    width: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width: 740px) {
+  .titulo{
+    font-size: 40px;
+    padding-top: 60px;
+  }
+
+
+  .nube{
+    max-width: 400px;
+  }
+
+  .titulo.prod {
+    line-height: 42px;}
+
+}
+
+
+@media only screen and (max-width: 690px) {
+
+  .phoneComo.arg{
+    display: none;
+  }
+
+  .movilComo{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 575px){
+
+.ant-row.rowPremio {
+    padding: 0px 50px;
+}
+
+.msg.premio {
+    text-align: center;
+}
+
+.lightTxt.premio {
+    text-align: center;
+}
+
+.nubeComoP.pt.h2.preguntas {
+    float: none;
+}
+
+.nubeComoP.pt.lote2{
+  float: none;
+}
+}
+
+@media only screen and (max-width: 552px) {
+  .espacioBases{
+    display: block;
+  }
+
+  h1.titulo.bases {
+      line-height: 30px;
+  }
+}
+@media only screen and (max-width: 552px) {
+  img.itang {
+    max-width: 220px;
+  }
+
+  img.btang {
+    max-width: 180px;}
+
+}
+
+
+@media only screen and (max-width: 530px) {
+
+
+button.ant-btn.btn.nLote.animated.rubberBand {
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+  .ant-row.detalle {
+    padding: 30px 30px 30px 30px;
+    max-width: 250px;
+  }
+
+  .txt {
+    font-size: 18px;
+    font-family: populaire;
+    text-align: center;
+    margin-top: -15%;
+    line-height: 18px;
+}
+.txt2{
+      font-size: 18px;
+      line-height: 18px;
+}
+
+
+.phoneBox {
+    max-width: 450px;}
+
+
+.footerContainer{
+  padding-bottom: 380px;
+}
+
+.packsBox{
+  display: none;
+}
+
+.packsMovil{
+  display: block;
+  max-width: 380px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.miniPack{
+  width: 100%;
+}
+
+.logoBox {
+    max-width: 250px;
+  }
+
+.line{
+  top:90px;
+}
+
+.titulo.home {
+    font-size: 35px;
+    margin-top: 5px;
+  }
+
+  .country {
+    max-width: 80px;
+}
+
+.countryName {
+    max-width: 100px;
+}
+
+.countryArg {
+    max-width: 120px;
+}
+
+h1.titulo.bases {
+font-size: 25px;
+line-height: 28px;
+}
+
+.titulo.prod {
+  line-height: 30px;
+  font-size: 26px;
+}
+}
+
+
+
+@media only screen and (max-width: 430px) {
+  img.arrow {
+    display: none;
+}
+
+.iline{
+  display: none;
+}
+
+.dashLine.participar{
+  display: block;
+  background-size: 25px 5px;
+}
+
+  .nubesContainer {
+    padding: 0px 35px 0px 35px;
+}
+
+  h1.titulo {
+    font-size: 25px;
+  }
+  .nube.part {
+      max-width: 300px;
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 30px;
+  }
+
+  img.responsiveLogo {
+    top: 10px;
+  }
+
+.bm-burger-button {
+    width: 26px;
+    height: 20px;
+}
+
+span.number {
+    font-size: 24px;
+}
+
+  .numUy{
+        font-size: 25px;
+  }
+
+  .tagUy{
+    font-size: 16px;
+  }
+
+  .nube.contact.phone.contactUy {
+    padding: 20px;
+}
+
+.correo {
+    font-size: 32px;
+}
+
+.country{
+  max-width: 85px;
+}
+.logoBox{
+  max-width: 200px;
+}
+.line {
+  min-height: 82px;
+  width: 100%;
+}
+
+img.premios {
+    padding-top: 20px;
+}
+
+.productos {
+    padding-bottom: unset;
+}
+
+.premioBox {
+    padding-top: 20px;
+}
+
+h1.titulo.part {
+    font-size: 30px;
+    line-height: 32px;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+  img.itang {
+      max-width: 150px;
+  }
+
+  .tangBox {
+    padding-top: 20px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+img.btang {
+    max-width: 150px;
+}
+
+.premioBox {
+    max-width: 300px;}
+
+  .titulo {
+      font-size: 30px;
+      padding-top: 100px;
+    }
+
+  .phoneBox {
+    max-width: 350px;
+  }
+
+  .txt{
+        margin-top: -30px;
+  }
+  .premiosBx{
+      padding-bottom: 20px;
+    }
+
+    .siderContainer {
+        height: calc( 25vh - 10px);
+    }
+
+    .footerContainer {
+    padding-bottom: 390px;
+  }
+
+  .titulo.home {
+    font-size: 35px;
+    padding-bottom: 10px;
+    padding-top: unset;
+    margin-top: 0px;
+  }
+
+  .countryName {
+    max-width: 115px;
+}
+
+.countryArg {
+    max-width: 130px;
+}
+}
+
+.contenedorTerminos li{
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+
+.routesContainer{
+  min-height: calc(100vh - 308px);
+}
+
+.profilenameCodigo{
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: dKZealand-regular;
+  font-size: 29px;
+}
+.cambiarDatos{
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: dKZealand-regular;
+}
+
+.productosNuevos{
+  font-family: populaire;
+  FONT-SIZE: 22px;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
