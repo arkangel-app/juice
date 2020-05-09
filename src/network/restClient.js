@@ -2,9 +2,8 @@ import axios from 'axios';
 
 export default class RestClientObj {
   static instanceAxios = axios.create({
-    //baseURL: 'http://localhost:5000'
-    baseURL: 'https://promo-tang.com/service'
-  });
+    baseURL: 'http://localhost:5000'
+    });
   static setInterceptor =(callback) =>{
     RestClientObj.instanceAxios.interceptors.response.use(function (response) {
         return response;
